@@ -1,0 +1,1076 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+  width: min(90%,1120px);
+  margin-inline: auto;
+  margin-block: auto;
+  
+   
+   
+}
+
+
+/* NAV BAR */
+body{
+    font-family:  poppins, sans-serif;
+    margin-left: 0.625rem;
+    margin-top: 0.625rem;
+  
+}
+
+/* .bg-color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, );
+    width: 100vw;
+    height: 60vh;
+    z-index: 11; */
+  
+
+
+.bg-video{
+    position: relative;
+    right: 0;
+    top:  0;
+    /* width: 98%; */
+    inset: 0,0,0,0;
+    
+  
+   background-color: rgba(35, 45, 57, 0.8);
+  
+}
+header{
+ width: 100%;
+ background:transparent;
+ position: absolute;
+ top: 0%;
+ background-color: rgba(255,255,255,0.4);
+ padding-inline: 20px;
+
+}
+
+.hamburger{
+    display: none;
+}
+
+.desktop-menu{
+ position: sticky;
+ top: 0%;
+    
+
+    display: flex;
+    gap: 8rem ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desktop-menu h1{
+  width: 170rem ; 
+  height: 5rem;
+    font-size: 2rem;
+    font-family: poppins, sans-serif;
+    line-height: 5rem;
+    color: #fff;
+    font-weight: 800;
+
+}
+
+ .desktop-menu h1 span{
+    color: #ed563b;
+    font-weight: 900; 
+
+    
+    
+}
+.desktop-menu ul{
+    display: flex;
+    gap: 2rem;
+
+}
+
+.desktop-menu ul li{
+    list-style: none;
+
+}
+
+
+.desktop-menu ul li a{
+    text-decoration: none;
+    font-size: 0.8125rem;
+    font-family: poppins, sans-serif;
+    line-height: 2.5rem;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.desktop-menu ul li a:hover{
+color: #ed563b;
+}
+
+.desktop-btn button{
+    
+ width: 5.24125rem;
+ height: 2.625rem;
+ line-height: 1.25rem;
+ padding: 11px 17px;
+ background-color: rgb(237, 86, 59);
+ text-align: center;
+ border: none;
+ color: white;
+ font-size: 0.8125rem;
+ font-weight: 400;
+ margin-right: 20px;
+ font-family: poppins, sans-serif;
+ 
+
+}
+
+.desktop-btn button:hover{
+    opacity: 0.7;
+ 
+ 
+}
+
+.mobile-menu{
+    display: none;
+}
+
+
+.firs-bg{
+    
+   
+}
+.bg-video{
+position: relative;
+    right: 0;
+    top:  0;
+    /* inset: 0,0,0,0;
+   */
+z-index: -1;
+
+}
+bg-color{
+    position: absolute;
+    top: 0;
+    left: 0;
+   background-color: rgba(35, 45, 57, 0.8);
+   width: 100%;
+   height: 100vh;
+}
+
+/* BG CONTENT */
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+color: white;
+justify-content: center;
+text-align: center;
+
+
+}
+
+ .first-content{
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 1.35rem;
+
+}
+
+.main-content{
+
+    font-size: 5.25rem;
+    font-weight: 800;
+    line-height: 6.3rem;
+
+   
+}
+
+.main-content span{
+    color: #ed563b;
+}
+
+.btn-content{
+    border: none;
+    background-color:#ed563b ;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.40625rem;
+}
+.btn-content:hover{
+    opacity: 0.5;
+}
+
+
+
+/* CHOOSE PROGRAM */
+
+.program{
+    margin-top: 140px;
+
+}
+
+.subtitle{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+justify-content: center;
+text-align: center;
+/* margin-left: 40%; */
+}
+
+.subtitle h1{
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #232d39;
+    letter-spacing:0.03125rem ;
+    line-height: 0.075rem;
+    text-align: center;
+}
+.subtitle h1 span{
+    color: #ed563b;
+}
+
+
+.subtitle p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #7a7a7a;
+    letter-spacing:0.03125rem ;
+    line-height: 1.5625rem;
+    margin-bottom: 80px;
+}
+.subtitle img{
+    margin-top: 1.5rem;
+}
+
+
+.p-catogery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+#cat-types{
+    display: flex;
+    gap: 1rem;
+}
+
+#cat-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+#cat-content p a{
+    color: #007bff;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#cat-content p a:hover{
+    color: #023265;
+}
+.p-catogery img{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.p-catogery h3{
+    
+    font-size: 1.1875rem;
+    font-weight: 600;
+    color: #232d39;;
+    letter-spacing:0.015625rem ;
+    line-height: 1.5625rem;
+   
+}
+
+.p-catogery p{
+      
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #7a7a7a;
+    letter-spacing:0.015625rem ;
+    line-height: 1.5625rem;
+
+}
+
+.p-catogery a{
+    text-decoration: none;
+    color: #ed563b;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    font-weight: 500;
+}
+
+.testmonial{
+    background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     margin-top: 8.125rem;
+    width: 98%;
+    height: 70vh;margin-inline: 0.7rem;
+}
+
+.test-content{
+ 
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+   margin-top: 4rem;
+   width: 80;
+}
+
+
+.test-content h1{
+          
+    font-size: 2.25rem;
+    font-weight: 800;
+    color:white;
+    letter-spacing:0.0625rem ;
+    line-height: 1.5625rem;
+}
+
+.test-content h1 span{
+color: #ed563b;
+}
+
+.test-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    letter-spacing:0.015625rem ;
+    line-height: 1.5625rem;
+    text-align: center;
+}
+
+/* OUR CLASSES */
+.classes{
+    margin-top: 8.75rem;
+
+}
+
+.training-classes{
+    display: grid;
+    grid-template-columns: repear(3,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-left: 3.125rem;
+    width: 90%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    align-items: self-start;
+    justify-content: center;
+
+   
+
+  
+}
+
+.content-bar{
+    width: 24rem;
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+padding: 1.7rem 3.2rem;
+box-shadow: 0 0 0.9375rem rgba(0,0,0,0.1);
+gap: 1.6rem;
+/* justify-content:center ; */
+
+
+
+}
+.content-bar h3{
+font-size: 1.1875rem;
+font-weight: 600;
+line-height: 0.5;
+text-transform: capitalize;
+color:  #232d39;
+text-align: center;
+margin-top: 0.4rem;
+}
+.content-bar h3:hover{
+    color: #ed563b;
+}
+.content-bar img{
+   
+}
+
+
+
+
+.training-classes button{
+    background-color: #ed563b;
+    border: none;
+    color: white;
+}
+
+.sidebar button{
+    width: 100%;
+    font-weight: 600;
+    font-size:1.1875rem ;
+    padding:1.25rem 1.875rem;
+    text-transform: capitalize;
+    text-align: center;
+  border-radius: 0.3125rem;
+  margin-top: 0.5rem;
+
+}
+
+.main-bar{
+    grid-column: 2 / span 3;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 1.5rem;
+   
+}
+.main-bar img{
+   margin-top: -1.7rem;
+   border-radius: 0.3rem;
+}
+
+.main-bar h1{
+    font-weight: 700;
+    font-size:1.4375rem ;
+    color: #232d39;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.03125rem;
+}
+
+.main-bar p{
+    font-weight: 400;
+    font-size:0.875rem ;
+    color: #7a7a7a;
+    line-height: 1.5625;
+    letter-spacing: 0.03125rem;
+    margin-top: -0.4rem;
+ 
+
+
+}
+
+.main-bar button{
+    font-weight: 400;
+    font-size:0.9375rem ;
+    color: #232d39;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.03125rem;
+    text-transform: uppercase;
+    padding: 0.75rem 1.25rem;
+    color: #ffffff;
+}
+
+/* SCHEDULE */
+
+.schedule{
+    margin-top: 140px;
+    background-image: url('	https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg');;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 66.475rem;
+    margin-inline: 0.7rem;
+
+ 
+
+}
+.schedule-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+
+  
+/*  
+   background-color: rgba(0,0,0,0.7); */
+   width: 100%;
+   height: 100%;
+   color: white;
+}
+.schedule-content .subtitle{
+  width: 100%;
+  margin-top: 8.75rem;
+    
+}
+.schedule-content .subtitle h1 {
+    color: white;
+}
+.schedule-content .subtitle  p{
+    color: white;
+}
+
+.days{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+   
+    /* justify-content: center; */
+
+  
+  
+}
+.days h3:hover{
+    color: #ed563b;
+}
+
+.day{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+.table-schedule table{
+    display: grid;
+    grid-template-columns: repeat(1fr,4);
+width: 80%;
+border-collapse: collapse;
+padding: 0.8rem 1.5rem;
+border-spacing: 0.125rem;
+text-indent: initial;
+margin-top: 1.8rem;
+margin-left: 5rem;
+}
+.table-schedule table tr td{
+   
+    flex-wrap: nowrap;
+    border-right: 1px white solid;
+    height: 100px;
+    width: 100%;
+    padding: 0.8rem 4rem;
+    color: #fff;
+    font-size: 0.8175rem ;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.015625rem;
+    text-align: center;
+    
+
+    
+}
+.row tr td{
+    border: 1px white solid;
+}
+
+
+.row .col-2{
+    width: 26%;
+
+}
+
+
+
+.expert-trainers{
+    margin-top: 8.75rem;
+}
+
+.trainers-info{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    
+   
+ 
+    margin-top: 1rem;
+    width: 100%;
+    
+    
+
+
+
+}
+
+.trainers-content{
+
+    
+    padding: 2.5rem;
+
+   
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.trainers-content img{
+    width: 100%;
+    border-radius: 0.3125rem;
+}
+
+.trainers-content h6{
+    font-size:0.8125rem ;
+    font-weight: 500;
+   color: #ed563b;
+   margin-top: 1.5625rem;
+   margin-bottom: 0.625rem;
+    
+}
+.trainers-content h3{
+    font-size:1.18125rem ;
+    font-weight: 600;
+   color: #ed563b;
+   letter-spacing: 0.03125rem;
+   color: #232d39;
+   margin-bottom: 1.125rem ;
+   text-transform: capitalize;
+}
+.trainers-content p{
+    font-size:0.875rem ;
+    line-height: 1.5625rem;
+    font-weight: 400;
+   color: #7a7a7a;
+   letter-spacing: 0.03125rem;
+   margin-bottom: 1.25rem ;
+
+
+}
+
+.icons{
+    display: flex;
+    gap: 0.9rem;
+}
+ .fa-brands{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #343a40;
+    font-weight: 400;
+}
+
+.fa-brands:hover{
+    color: #ed563b;
+}
+
+/* /* loc-sing */
+
+.loc-sign{
+    margin-top: 8.75rem;
+    display: flex;
+   
+ 
+}
+iframe{
+    width: 50%;
+    height: 605px;
+}
+
+.form{
+  
+    background-image: url(	'https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 633px;
+    height: 449px;
+  */
+    width: 50%;
+    padding: 5rem;
+    color:  #7a7a7a;
+    
+   
+
+}
+
+
+.form .label{
+   
+   height: 2.5rem;
+   /* width: 50%; */
+
+   margin-bottom: 30px;
+   padding: 10px;
+   border:    1px solid #ddd; ;
+   color: #7a7a7a;
+   font-size: inherit;
+ 
+}
+
+form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2.5rem;
+    border:    1px solid #ddd; ;
+    color: #7a7a7a;
+    font-size: 13px;
+ 
+
+   
+}
+.email{
+    margin-left:20px ;
+}
+
+ .form .subject{
+    /* width: 100%; */
+    /* width: 80%;
+    color: #ed563b;
+    */
+}
+
+.form button{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8175rem;
+  
+}
+.form button:hover{
+    opacity: 0.8;
+}
+
+.form .msg{
+    padding-top: 0;
+    margin-bottom:30px ;
+    width: 23.9rem;
+    height: 150px;
+}
+
+/* footer */
+.footer{
+margin-top: 2rem;
+font-size: 0.8125rem;
+font-weight: 400;
+text-align: center;
+color: #232d39;
+margin-bottom: 2rem;
+}
+
+.footer span{
+    color: #ed563b;
+}
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media(max-width: 778px){
+    .desktop-menu{
+display: none;    
+}
+
+.hamburger{
+    display: block;
+    height: 5rem;
+   
+}
+
+header{
+
+    background-color: #f7f7f7;
+ 
+   margin-top: 10px;
+}
+
+
+.bg-video{
+    width: 100%;
+    position: absolute;
+    /* top: 0;
+    left: 20%; */
+    margin-left: 20px;
+}
+
+i
+{
+    z-index: 1111;
+}
+
+.bg-video{
+    position: absolute;
+    z-index: 2;
+}
+
+.content p{
+
+    z-index: 3;
+}
+
+.hamburger .fa-solid{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+       
+        color: #212529;
+        /* padding: 15px; */
+        width: 50px;
+        height: 50px;
+        top: 25%;
+        right: 15%;
+        border-radius: 50%;
+        font-size: 2rem;
+        font-weight: 600;
+        /* line-height: 1.5; */
+}
+
+.hamburger h1{
+    display: flex;
+  align-items: center;
+    font-size: 2rem;
+    font-family: poppins, sans-serif;
+    line-height: 5rem;
+    color: black;
+    font-weight: 800;
+    margin-left: 3rem;
+}
+
+.hamburger h1 span{
+    color: #ed563b;
+    margin-left: 8px;
+}
+
+
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0%;
+gap: 0.2rem;
+    inset: 0 0 0 0;
+   
+    transform: translatex(0%);
+    transition: transform 350ms ease-in-out;
+
+    z-index: 4;
+}
+ 
+
+.mobile-menu .navigation{
+    background: #f7f7f7  !important;
+    position: absolute;
+    top: 4%;
+    right: 58%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.mobile-menu li{
+    list-style: none;
+    width: 100%;
+}
+
+.mobile-menu ul li a{
+    /* width: 24.83125rem; */
+ 
+    height: 50px !important;
+    line-height: 50px !important;
+    padding: 0px !important;
+    border: none !important;
+    color: #232d39 !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    font-size: 0.8125rem !important;
+    
+}
+.mobile-menu ul li a:hover{
+  color: #ed563b;
+}
+
+.mobile-menu a {
+    color: #f7f7f7 !important;
+}
+
+
+.mobile-menu[data-visible="false"] {
+    transform: translatex(100%);
+}
+
+.hamburger i[data-visible="true"]{
+    display: block;
+}
+
+.hamburger i[data-visible="false"]{
+    display: none;
+}
+
+.mobile-menu-actions{
+    width: 100%;
+    border: none;
+    background-color: #ed563b;
+    text-align: center;
+
+    padding: 0.6rem;
+   
+}
+
+.mobile-menu-actions a{
+    list-style: none;
+    text-decoration: none !important;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+
+
+.content{
+    position: absolute;
+    top: 30%;
+ 
+    left: 0%;
+
+}
+
+.p-catogery{
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+  width: 80%;
+  gap: 1rem;
+
+}
+#cat-types{
+    display: flex;
+    gap: 2rem;
+    width: 90%;
+   
+    margin-bottom: 30px;
+   
+}
+.testmonial{
+    height: 60vh;
+}
+.test-content{ 
+    position: relative;
+    top: -8%;
+    display: flex;
+   flex-wrap: wrap;
+   width: 75%;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-left: 5rem;
+ 
+}
+
+.test-content h1{
+ line-height: 1.2;
+
+}
+
+.training-classes{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .content-bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 1.7rem 7rem;
+    margin-right: 1.625rem;
+}
+.main-bar{
+    display: flex;
+   
+    width: 85%;
+}
+.main-bar img{
+    width: 31.875rem;
+    margin-right: 5.5rem;
+
+}
+
+.main-bar p{
+    width:31.875rem ;
+    height: 6.25;
+
+}
+/* scheule */
+
+.schedule{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.table-schedule{
+ 
+    width: 90%;
+    /* margin-right: 60%; */
+}
+
+.table-schedule table tr td{
+    width: 111px;
+    padding: 0;
+  
+   
+}
+.row col-4{
+    padding: 1rem;
+    color: #007bff;
+}
+
+.trainers-info{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* align-items: center; */
+    /* /* justify-content: center; */
+    margin-left: 10%;
+    gap: 2rem;
+
+}
+
+.loc-sign{
+    display: flex;
+    flex-direction: column;
+    width: 42.875rem;
+    margin-left: 5px;
+
+}
+
+.loc-sign iframe{
+    width: 42.875rem;
+}
+.loc-sign  .form{
+    width: 42.875rem;
+}
+
+.form input{
+  
+    width: 100%;
+}
+
+ .email{
+    position: relative;
+   left: -5%;
+}
+.form .msg{
+   width: 447px;
+}
+
+}
+
